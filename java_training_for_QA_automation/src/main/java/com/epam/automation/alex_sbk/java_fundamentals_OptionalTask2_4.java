@@ -3,7 +3,7 @@ package com.epam.automation.alex_sbk;
 import java.util.Scanner;
 
 
-public class java_fundamentals_OptionalTask2_1 {
+public class java_fundamentals_OptionalTask2_4 {
     public static void main(String[] args) {
         //input size of the matrix
        int size = input("Enter matrix dimension, please: ", 3, 120);
