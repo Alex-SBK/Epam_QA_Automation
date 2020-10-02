@@ -1,3 +1,5 @@
+// Enter integers as command line arguments, calculate their
+// sum (product) and print the result to the console.
 package com.epam.automation.alex_sbk;
 
 public class Java_fundamentals_MainTask4 {

@@ -1,3 +1,6 @@
+// Enter a number from 1 to 12. Output to the console the name
+// of the month corresponding to the given date.
+// Check the correctness of entering numbers.
 package com.epam.automation.alex_sbk;
 
 import java.util.Scanner;

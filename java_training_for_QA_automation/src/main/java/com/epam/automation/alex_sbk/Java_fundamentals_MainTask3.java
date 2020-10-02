@@ -1,3 +1,5 @@
+// Print a given number of random numbers
+// with and without a new line
 package com.epam.automation.alex_sbk;
 
 import java.util.Scanner;

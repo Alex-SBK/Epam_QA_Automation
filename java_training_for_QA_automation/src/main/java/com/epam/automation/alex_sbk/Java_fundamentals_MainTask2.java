@@ -1,3 +1,5 @@
+// Display command line arguments in reverse
+// order in a console window.
 package com.epam.automation.alex_sbk;
 
 public class Java_fundamentals_MainTask2 {

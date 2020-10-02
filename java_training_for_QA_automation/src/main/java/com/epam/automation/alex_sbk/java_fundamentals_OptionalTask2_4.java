@@ -1,3 +1,6 @@
+// Find the maximum element in a matrix and remove all
+// rows and columns from the matrix that contain it
+
 package com.epam.automation.alex_sbk;
 
 import java.util.Scanner;

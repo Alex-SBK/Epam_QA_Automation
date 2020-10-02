@@ -1,3 +1,5 @@
+// Find the shortest and longest number.
+// Print the found numbers and their length.
 package com.epam.automation.alex_sbk;
 
 import java.util.Scanner;

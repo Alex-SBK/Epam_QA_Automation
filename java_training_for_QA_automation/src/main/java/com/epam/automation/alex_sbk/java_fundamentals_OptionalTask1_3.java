@@ -1,3 +1,5 @@
+// Print to the console those numbers whose length is
+// more than the average length for all numbers, as well as the length.
 package com.epam.automation.alex_sbk;
 
 import java.util.Scanner;
