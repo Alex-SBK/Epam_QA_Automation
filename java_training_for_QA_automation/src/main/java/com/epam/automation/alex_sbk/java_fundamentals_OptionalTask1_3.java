@@ -2,14 +2,13 @@ package com.epam.automation.alex_sbk;
 
 import java.util.Scanner;
 
-
-public class OptionalTask2 {
+public class java_fundamentals_OptionalTask1_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number;
         System.out.println();
         do {
-            System.out.print("Enter how many elements you want: ");
+            System.out.print("Enter how many elements do you want: ");
             while (!sc.hasNextInt()) {
                 System.out.println("That not a number!\nPlease enter an integer value! :");
                 sc.next(); // this is important!
@@ -31,19 +30,24 @@ public class OptionalTask2 {
             myArray[i] = sc.nextInt();
         }
 
-        System.out.println("\n");
-        for (int j = number - 1; j >= 1; j--) {
-            for (int i = 0; i < j; i++) {
-                if (getLengthOfNumber(myArray[i]) > (getLengthOfNumber(myArray[i + 1]))) {
-                    swap(myArray, (i + 1), i);
-                }
+        //calculating average length
+        int sum = 0;
+        for (int value : myArray
+        ) {
+            sum += getLengthOfNumber(value);
+        }
+
+        int average = sum / number;
+        System.out.printf("\n----\nThe average length is: %d\n", average);
+        System.out.println("\nLengths of next numbers are greater than average value:\n");
+        for (int value : myArray
+        ) {
+            if (getLengthOfNumber(value) > average) {
+                System.out.printf("Number is: %d, " +
+                        "number length is: %d\n", value, getLengthOfNumber(value));
             }
         }
 
-        for (int g = 0; g < number; g++) {
-            System.out.print(" " + myArray[g]);
-        }
-        System.out.println("\n");
 
     }
 
@@ -56,9 +60,4 @@ public class OptionalTask2 {
         return count;
     }
 
-    public static void swap(int[] array, int index1, int index2) {
-        int tmp = array[index1];
-        array[index1] = array[index2];
-        array[index2] = tmp;
-    }
 }

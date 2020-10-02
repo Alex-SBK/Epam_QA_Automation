@@ -2,7 +2,7 @@ package com.epam.automation.alex_sbk;
 
 import java.util.Scanner;
 
-public class MainTask5 {
+public class Java_fundamentals_MainTask5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number;

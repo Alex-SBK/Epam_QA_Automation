@@ -1,6 +1,6 @@
 package com.epam.automation.alex_sbk;
 
-public class MainTask4 {
+public class Java_fundamentals_MainTask4 {
     public static void main(String[] args) {
         if (args.length == 0) {
             System.out.println("No arguments found. exit..");
