@@ -1,4 +1,17 @@
 *.db
 *.log
+*.swp
 /target
 /bin
+
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+
+
